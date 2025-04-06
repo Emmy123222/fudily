@@ -13,7 +13,11 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src="/image.jpg" alt="Fungily" className="h-8 w-auto" />
+              <img
+                src="/fungily-logo.png"
+                alt="Fungily"
+                className="h-8 w-auto"
+              />
               <span className="ml-2 text-xl font-bold text-white">Fungily</span>
             </Link>
           </div>
@@ -92,7 +96,7 @@ export function Navbar() {
 
 const navItems = [
   { name: "Swap", href: "/swap" },
-  { name: "Sales", href: "/sales" },
+  { name: "Presale", href: "/sales" },
   { name: "LaunchPad", href: "/launchpad" },
   { name: "Marketplace", href: "/marketplace" },
 ];
