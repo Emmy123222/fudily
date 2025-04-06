@@ -1,4 +1,4 @@
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight } from "lucide-react";
 
 export function Hero() {
   return (
@@ -9,13 +9,15 @@ export function Hero() {
             Launch Your Tokens and NFTs like never before with Fungily
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xl text-slate-300">
-            Create, launch, and manage presales, liquidity pools, and marketplaces for both tokens and NFTs—without writing a single line of code.
+            Create, launch, and manage presales, liquidity pools, and
+            marketplaces for both tokens and NFTs—without writing a single line
+            of code.
           </p>
-          <div className="mt-10 flex justify-center gap-4">
-            <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-semibold hover:opacity-90 transition-opacity flex items-center">
+          <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4 px-4">
+            <button className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-semibold hover:opacity-90 transition-opacity flex items-center justify-center">
               Start Launching <ChevronRight className="ml-2 h-5 w-5" />
             </button>
-            <button className="px-8 py-3 bg-slate-700 rounded-lg font-semibold hover:bg-slate-600 transition-colors">
+            <button className="w-full sm:w-auto px-8 py-3 bg-slate-700 rounded-lg font-semibold hover:bg-slate-600 transition-colors">
               Explore Features
             </button>
           </div>
