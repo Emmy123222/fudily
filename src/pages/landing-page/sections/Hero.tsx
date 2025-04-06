@@ -13,11 +13,12 @@ export function Hero() {
             marketplaces for both tokens and NFTs—without writing a single line
             of code.
           </p>
-          <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4 px-4">
-            <button className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-semibold hover:opacity-90 transition-opacity flex items-center justify-center">
-              Start Launching <ChevronRight className="ml-2 h-5 w-5" />
+          <div className="mt-10 flex flex-row justify-center gap-3 px-4">
+            <button className="px-4 sm:px-6 py-2.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg text-sm sm:text-base font-semibold hover:opacity-90 transition-opacity flex items-center justify-center">
+              Start Launching{" "}
+              <ChevronRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </button>
-            <button className="w-full sm:w-auto px-8 py-3 bg-slate-700 rounded-lg font-semibold hover:bg-slate-600 transition-colors">
+            <button className="px-4 sm:px-6 py-2.5 bg-slate-700 rounded-lg text-sm sm:text-base font-semibold hover:bg-slate-600 transition-colors">
               Explore Features
             </button>
           </div>
